@@ -9,9 +9,9 @@ if (!isset($_SESSION['loggedin'])) {
 }
 
 $invoices = [
-    1 => ['user' => 'user1', 'date' => '2025-01-10', 'amount' => '$200', 'status' => 'Paid'],
-    2 => ['user' => 'user2', 'date' => '2025-01-12', 'amount' => '$350', 'status' => 'Pending'],
-    3 => ['user' => 'user3', 'date' => '2025-01-15', 'amount' => '$150', 'status' => 'Paid']
+    1 => ['user' => 'user1', 'date' => '2025-01-10', 'amount' => '₹200', 'status' => 'Paid'],
+    2 => ['user' => 'user2', 'date' => '2025-01-12', 'amount' => '₹350', 'status' => 'Pending'],
+    3 => ['user' => 'user3', 'date' => '2025-01-15', 'amount' => '₹150', 'status' => 'Paid']
 ];
 
 if (!isset($_GET['invoice_id'])) {
