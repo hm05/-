@@ -31,6 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <p>We value your feedback! Please share your thoughts below:</p>
         <form method="POST" action="">
             <label for="feedback">Feedback:</label>
+            <br>
             <textarea name="feedback" id="feedback" required></textarea>
             <button type="submit" class="btn-primary">Submit</button>
         </form>
